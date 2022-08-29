@@ -1,0 +1,29 @@
+<html>
+<head>
+</head>
+    <body>
+        <div id="d1"></div>
+        <div id="="d2></div>
+        <script>
+            var names=["tushar","nilesh","rohan","kishor","ashok"};
+            //built in methods of javascript
+            //push,pop,unshift,shift,slice,splice,sort,reverse
+            names.push("rahul");//add element at the last
+            names.unshift("parth");//add element at the first position
+            names.unshift("rajesh");
+            names.pop();//remove the last element
+            names.shift();//remove r=the frist element
+            //splice->insert an element in beteween in an array,at same time we can replace the element
+            names.splice(1,0,"ganesh","sujeet","vivek");
+            var newlist=names.slice(2,8);//8-1=7
+            names.sort();
+            names.reverse();
+            document.getElementById("d1").innerHTML=names;
+             document.getElementById("d2").innerHTML=newlist;
+
+
+
+        </script>
+    </body>
+
+</html>
